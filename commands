@@ -1,1000 +1,1000 @@
-   76  grep -i Invalid secure 
-   77  ls
-   78  grep -i Invalid secure
-   79  ls
-   80  cd httpd/
-   81  cat access_log 
-   82  ls
-   83  cd ..
-   84  ls
-   85  cat lastlog 
-   86  cat lastlog 
-   87  s
-   88  ls
-   89  ls
-   90  grep -i ssh secure 
-   91  ls
-   92  cat cups
-   93  clear
-   94  logrotate --version
-   95  man logrotate
-   96  cat /etc/logrotate.conf 
-   97  cd /etc/logrotate.d/
-   98  ls
-   99  cat syslog 
-  100  cat yum 
-  101  lcd
-  102  echo $SHELLS
-  103  cat /etc/shells 
-  104  cat /etc/passwd
-  105  echo $0
-  106  echo $SHELL
-  107  echo 'Helllo \n newline'
-  108  echo -e 'Helllo \n newline'
-  109  echo -e 'Helllo \t newline'
-  110  man echo
-  111  restart=
-  112  echo $restart
-  113  cat /etc/
-  114  vi /etc/profile
-  115  ls -l
-  116  ls -la
-  117  vi .bash_profile 
-  118  env
-  119  env | grep -i name
-  120  vi .bashrc 
-  121  env
-  122  env | grep -i name
-  123  echo $name
-  124  vi /etc/profile
-  125  echo $name
-  126  exit
-  127  vi /etc/profile
-  128  exit
-  129  echo $PS1
-  130  exit
-  131  lshw
-  132  ls -l /sbin/init
-  133  runlevel
-  134  systemctl default multiuser.target
-  135  systemctl default=multiuser.target
-  136  systemctl set-default multiuser.target
-  137  systemctl set-defaults multiuser.target
-  138  systemctl set-default multiuser.target
-  139  systemctl get-default
-  140  ls -ltr /etc/systemd/system
-  141  systemctl set-default multi-user.target
-  142  runlevel
-  143  ls
-  144  file redd
-  145  file reddy
-  146  touch script.sh
-  147  file script.sh 
-  148  cat > hello
-  149  file hello 
-  150  mv hello hello.txt
-  151  file hello.txt 
-  152  ls -ld
-  153  ldf -hP
-  154  df -hP
-  155  ls /var
-  156  pwd
-  157  hostname
-  158  cat /etc/nsswitch.conf
-  159  cat /etc/resolv.conf 
-  160  cat >> /etc/hosts
-  161  cat /etc/hosts
-  162  ping www.google.com
-  163  hostname
-  164  hostname rishi
-  165  sudo su
-  166  pwd
-  167  ls -l /etc/passwd
-  168  chmod 700 /etc/passwd
-  169  ls -l /etc/passwd
-  170  su bob
-  171  su - bob
-  172  cat /etc/networks/interfaces
-  173  cat /etc/networks/interface
-  174  ls -l /etc/networks 
-  175  cat /etc/networks 
-  176  ip route
-  177  route
-  178  lcat /etc/group
-  179  cat /etc/group
-  180  id ec2-user
-  181  cat /etc/passwd
-  182  cat /etc/passwd | grep -i ec2-user
-  183  cat /etc/passwd
-  184  id
-  185  who
-  186  last
-  187  groupadd admins
-  188  cat /etc/group
-  189  useradd -u 1010 -g 1001 -c "Hello Admin" -e 12-12-2021 -d /home/rishi bob
-  190  cat /etc/bob
-  191  tail /etc/passwd
-  192  su - bob
-  193  su bob
-  194  su - bob
-  195  ls -l /etc/passwd
-  196  su - bob
-  197  su -
+   40  cat Hello_errror 
+   41  cat hello  2> Hello_errror
+   42  cat Hello_errror 
+   43  ls -l 1>Hello_errror 
+   44  ls
+   45  cat Hello_errror 
+   46  ls -l
+   47  cat Hello_errror 
+   48  id rishi5
+   49  tail -n 5 /etc/passwd
+   50  yum install httpd
+   51  yum remove httpd
+   52  yum install httpd
+   53  yum install httpd -y
+   54  systemctl start httpd
+   55  cd /var/www/html/
+   56  ls
+   57  echo Hello
+   58  echo Hello > index.html
+   59  echo Hello World! > index.html
+   60  echo Hello > index.html
+   61  echo "new file" > file
+   62  ls
+   63  systemctl status httpd
+   64  cd
+   65  cat /etc/passwd
+   66  tail /etc/passwd
+   67  tail -n 2 /etc/passwd
+   68  man tail
+   69  tail -n 1 /etc/passwd
+   70  tail -n 2 /etc/shadow
+   71  tail -n 1 /etc/passwd
+   72  vi /etc/passwd
+   73  tail -n 1 /etc/passwd
+   74  useradd -u 1020 john
+   75  tail -n 3 /etc/passwd
+   76  passwd john
+   77  sudo sed -i 's/^PasswordAuthentication no$/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+   78  echo  "rishi143" | sudo passwd --stdin ec2-user
+   79  sudo systemctl restart sshd
+   80  tail -n 3 /etc/passwd
+   81  vi /etc/passwd
+   82  sudo systemctl restart sshd
+   83  cat /etc/passwd
+   84  useradd -s /sbin/nologin sai
+   85  passwd sai
+   86  pwd
+   87  exit
+   88  hostname
+   89  man hostnamectl
+   90  hostnamectl set-hostname Linux Practice
+   91  hostnamectl set-hostname "Linux Practice"
+   92  sudo su
+   93  ls
+   94  pwd
+   95  cd ..
+   96  ls
+   97  tail -n 3 /etc/passwd
+   98  man useradd
+   99  id
+  100  id ec2-user
+  101  head /etc/passwd
+  102  head -n 3 /etc/passwd
+  103  tail /etc/passwd
+  104  tail -n 30 /etc/passwd
+  105  vi testfile
+  106  grep Aws testfile
+  107  grep -i Aws testfile
+  108  grep -i sai /etc/passwd
+  109  grep -i sai /etc/passwd
+  110  useradd Sai
+  111  grep -i sai /etc/passwd
+  112  cat /etc/passwd
+  113  id rishi5
+  114  useradd -d /home/avenger rajeev
+  115  tail -n 3 /etc/passwd
+  116  man useradd
+  117  tail -n 3 /etc/passwd
+  118  useradd -c "new user" thor
+  119  tail -n 3 /etc/passwd
+  120  useradd -e 06-12-2021 expier
+  121  passwd expire
+  122  passwd expier
+  123  pwd
+  124  ls
+  125  cd expier/
+  126  ls
+  127  tail -n 3 /etc/passwd
+  128  userdel expier
+  129  tail -n 3 /etc/passwd
+  130  ls
+  131  cd ..
+  132  lls
+  133  lls
+  134  ls
+  135  ls
+  136  exit
+  137  tail -n 3 /etc/group
+  138  groupadd devs
+  139  tail -2 /etc/passwd
+  140  cat /etc/group
+  141  usermod -aG devs thor
+  142  tail -n 2 /etc/group
+  143  su ec2-user
+  144  su - ec2-user
+  145  exit
+  146  vi /etc/sudoers
+  147  ls -l /etc/sudoers
+  148  sudo -Ul sai
+  149  sudo -lU sai
+  150  tail /var/log/messages
+  151  useradd logs
+  152  passwd logs
+  153  tail /var/log/messages
+  154  cat /var/log/secure
+  155  useradd firstname.lastname centos
+  156  ls
+  157  ./script.sh 
+  158  ls
+  159  cat code.sh 
+  160  pwd
+  161  vi /etc/systemd/system/code.service
+  162  pwd
+  163  systemctl start code.service
+  164  systemctl sttus code.service
+  165  systemctl status code.service
+  166  systemctl enable code.service
+  167  systemctl start code.service
+  168  systemctl status code.service
+  169  systemctl stop code
+  170  systemctl status code.service
+  171  systemctl status code
+  172  vi /etc/systemd/system/code.service
+  173  systemctl start code.service
+  174  systemctl status code
+  175  vi /etc/systemd/system/code.service
+  176  systemctl start code.service
+  177  systemctl status code
+  178  systemctl list-units
+  179  systemctl list-units --all
+  180  journalctl
+  181  journalctl -b
+  182  journalctl -u code.service
+  183  vi code.sh 
+  184  journalctl -u code.service
+  185  lsblk
+  186  fdisk /dev/xvdf
+  187  lsblk
+  188  mkfs.ext3 /dev/xvdf1
+  189  mkdir snapshot
+  190  ls
+  191  mount /dev/xvdf1 snapshot
+  192  ls
+  193  df -h
+  194  echo "Move file to different region" > backup
+  195  ls
+  196  mv backup snapshot/
+  197  cd snapshot/
   198  ls
-  199  vi code.sh
-  200  chmod 777 code.sh 
-  201  ./code.sh 
-  202  vi co
-  203  vi code.sh 
-  204  ./code.sh 
-  205  vi code.sh 
-  206  ./code.sh 
-  207  hostname
-  208  vi code.sh 
-  209  ./code.sh 
-  210  vi code.sh 
-  211  ./code.sh 
-  212  ./code.sh 
-  213  ./code.sh 
-  214  vi code.sh 
-  215  ./code.sh 
-  216  vi code.sh 
-  217  ./code.sh 
-  218  ./code.sh 
-  219  cat code.sh 
-  220  ./code.sh 
-  221  vi choice.sh
-  222  chmod 777 choice.sh 
-  223  ./choice.sh 
-  224  ./choice.sh 
-  225  ls
-  226  ./script.sh 
-  227  exit
-  228  touch file{1..5}
+  199  ls
+  200  ls
+  201  rm -rf backup 
+  202  ls
+  203  lsblk
+  204  pwd
+  205  ls
+  206  cd ..
+  207  mount /dev/xvdf1 snapshot/
+  208  ls
+  209  ls -l snapshot/
+  210  mkdir snap2
+  211  mount /dev/xvdf1 snap2/
+  212  ls
+  213  lsblk
+  214  umount /dev/xvdf1
+  215  mount /dev/xvdf1 snap2/
+  216  lsblk
+  217  lsblk
+  218  lsblk
+  219  lsblk
+  220  lsblk
+  221  lsblk
+  222  lsblk
+  223  df -h
+  224  lsblk
+  225  mount /dev/xvdf1 snap2
+  226  ls
+  227  cd snap
+  228  cd snap2
   229  ls
-  230  sh code.sh 
-  231  ls
-  232  vi test.sh
-  233  chmod +x test.sh 
-  234  ./test.sh 
-  235  cat /etc/passswd
-  236  cat /etc/passwd
-  237  useradd rishi
-  238  useradd rishi5
-  239  cat /etc/passwd
-  240  cat /etc/shadow
-  241  passwd rishi5
-  242  cat /etc/shadow
-  243  ls -a
-  244  ls -la
-  245  ls -a
-  246  rm -rf file*
-  247  ls- la
-  248  ls -la
-  249  whomai
-  250  whoami
-  251  lsblk
-  252  lsblk
-  253  fdisk /dev/xvdf
-  254  lsblk
-  255  mkfs.ext3 /dev/xvdf1
-  256  mkdir remote
-  257  ls
-  258  mount /dev/xvdf1 remote
-  259  df -h
-  260  clear
-  261  hostname
-  262  uptime
-  263  w
-  264  last
-  265  who
-  266  man uptime
-  267  uptime -p
-  268  date
-  269  man date
-  270  date -r
-  271  date -R
-  272  cal
-  273  cak -i
-  274  cal -i
-  275  lcal -j
-  276  cal -j
-  277  cal
-  278  man cal
-  279  lcal -y
-  280  cal -y
-  281  cal -3
-  282  cal -4
-  283  man history
-  284  man history
-  285  history
-  286  history284
-  287  man history
-  288  echo Hello
-  289  history
-  290  echo Hello
-  291  cat /etc/hosts
-  292  ping google.com
-  293  ping www.google.com
-  294  vi /etc/hosts
-  295  ping google.com
-  296  cat hello
-  297  cat hello 2> /dev/null
-  298  cat hello  > Hello_errror
-  299  cat Hello_errror 
-  300  cat hello  2> Hello_errror
-  301  cat Hello_errror 
-  302  ls -l 1>Hello_errror 
-  303  ls
-  304  cat Hello_errror 
-  305  ls -l
-  306  cat Hello_errror 
-  307  id rishi5
-  308  tail -n 5 /etc/passwd
-  309  yum install httpd
-  310  yum remove httpd
-  311  yum install httpd
-  312  yum install httpd -y
-  313  systemctl start httpd
-  314  cd /var/www/html/
-  315  ls
-  316  echo Hello
-  317  echo Hello > index.html
-  318  echo Hello World! > index.html
-  319  echo Hello > index.html
-  320  echo "new file" > file
+  230  cat backup 
+  231  exit
+  232  lsblk
+  233  ls - /dev
+  234  ls - /dev
+  235  ls -l /dev
+  236  ls -l /dev | grep "^b"
+  237  lsblk
+  238  df -h
+  239  fdisk -l
+  240  ipconfig
+  241  ifconfig
+  242  ls
+  243  pwd
+  244  mkdir testing
+  245  cd testing/
+  246  ls
+  247  mkdir sai bapatla beach
+  248  ls
+  249  rm -rf *
+  250  ls
+  251  man mkdir
+  252  mkdir -p sai/bapatla/beach
+  253  ls
+  254  ls sai/
+  255  ls sai/bapatla/
+  256  ls
+  257  mkdir sai/new-dir
+  258  ls sai/
+  259  ls -p sai/2nd_dir
+  260  mkdir -p sai/2nd_dir
+  261  ls -l
+  262  ls
+  263  rm sai
+  264  rm -r sai/
+  265  ls
+  266  rm -rf sai/
+  267  ls
+  268  pwd
+  269  cd ..
+  270  pwd
+  271  ls -l
+  272  ls -a
+  273  ls --all
+  274  ls -a
+  275  ls -la
+  276  ls
+  277  ls -l
+  278  man ls
+  279  ls --help
+  280  ls -d
+  281  pwd
+  282  ls -d
+  283  ls -l
+  284  ls -ld
+  285  mkdir tests
+  286  ls -d
+  287  cd test
+  288  ls
+  289  echo "Hello" > tests/file.txt
+  290  cat tests/file.txt 
+  291  ls -d
+  292  ls --help | grep d
+  293  pwd
+  294  ls
+  295  cd ..
+  296  pwd
+  297  ls -d
+  298  ls
+  299  cd ec2-user/
+  300  ls
+  301  ls -ld
+  302  mkdir new_dir
+  303  ls -ld
+  304  pwd
+  305  cd ..
+  306  ls
+  307  ls -d
+  308  ls -ld
+  309  ls
+  310  cd ec2-user/
+  311  ls
+  312  ls
+  313  mv tests testing/
+  314  ls
+  315  ls -l testing/
+  316  ls -l testing/
+  317  cd testing/
+  318  ls
+  319  touch file{2..10}
+  320  ls -l
   321  ls
-  322  systemctl status httpd
-  323  cd
-  324  cat /etc/passwd
-  325  tail /etc/passwd
-  326  tail -n 2 /etc/passwd
-  327  man tail
-  328  tail -n 1 /etc/passwd
-  329  tail -n 2 /etc/shadow
-  330  tail -n 1 /etc/passwd
-  331  vi /etc/passwd
-  332  tail -n 1 /etc/passwd
-  333  useradd -u 1020 john
-  334  tail -n 3 /etc/passwd
-  335  passwd john
-  336  sudo sed -i 's/^PasswordAuthentication no$/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-  337  echo  "rishi143" | sudo passwd --stdin ec2-user
-  338  sudo systemctl restart sshd
-  339  tail -n 3 /etc/passwd
-  340  vi /etc/passwd
-  341  sudo systemctl restart sshd
-  342  cat /etc/passwd
-  343  useradd -s /sbin/nologin sai
-  344  passwd sai
-  345  pwd
-  346  exit
-  347  hostname
-  348  man hostnamectl
-  349  hostnamectl set-hostname Linux Practice
-  350  hostnamectl set-hostname "Linux Practice"
-  351  sudo su
-  352  ls
-  353  pwd
-  354  cd ..
-  355  ls
-  356  tail -n 3 /etc/passwd
-  357  man useradd
-  358  id
-  359  id ec2-user
-  360  head /etc/passwd
-  361  head -n 3 /etc/passwd
-  362  tail /etc/passwd
-  363  tail -n 30 /etc/passwd
-  364  vi testfile
-  365  grep Aws testfile
-  366  grep -i Aws testfile
-  367  grep -i sai /etc/passwd
-  368  grep -i sai /etc/passwd
-  369  useradd Sai
-  370  grep -i sai /etc/passwd
-  371  cat /etc/passwd
-  372  id rishi5
-  373  useradd -d /home/avenger rajeev
-  374  tail -n 3 /etc/passwd
-  375  man useradd
-  376  tail -n 3 /etc/passwd
-  377  useradd -c "new user" thor
-  378  tail -n 3 /etc/passwd
-  379  useradd -e 06-12-2021 expier
-  380  passwd expire
-  381  passwd expier
-  382  pwd
-  383  ls
-  384  cd expier/
-  385  ls
-  386  tail -n 3 /etc/passwd
-  387  userdel expier
-  388  tail -n 3 /etc/passwd
-  389  ls
-  390  cd ..
-  391  lls
-  392  lls
-  393  ls
-  394  ls
-  395  exit
-  396  tail -n 3 /etc/group
-  397  groupadd devs
-  398  tail -2 /etc/passwd
-  399  cat /etc/group
-  400  usermod -aG devs thor
-  401  tail -n 2 /etc/group
-  402  su ec2-user
-  403  su - ec2-user
-  404  exit
-  405  vi /etc/sudoers
-  406  ls -l /etc/sudoers
-  407  sudo -Ul sai
-  408  sudo -lU sai
-  409  tail /var/log/messages
-  410  useradd logs
-  411  passwd logs
-  412  tail /var/log/messages
-  413  cat /var/log/secure
-  414  useradd firstname.lastname centos
-  415  ls
-  416  ./script.sh 
-  417  ls
-  418  cat code.sh 
-  419  pwd
-  420  vi /etc/systemd/system/code.service
-  421  pwd
-  422  systemctl start code.service
-  423  systemctl sttus code.service
-  424  systemctl status code.service
-  425  systemctl enable code.service
-  426  systemctl start code.service
-  427  systemctl status code.service
-  428  systemctl stop code
-  429  systemctl status code.service
-  430  systemctl status code
-  431  vi /etc/systemd/system/code.service
-  432  systemctl start code.service
-  433  systemctl status code
-  434  vi /etc/systemd/system/code.service
-  435  systemctl start code.service
-  436  systemctl status code
-  437  systemctl list-units
-  438  systemctl list-units --all
-  439  journalctl
-  440  journalctl -b
-  441  journalctl -u code.service
-  442  vi code.sh 
-  443  journalctl -u code.service
-  444  lsblk
-  445  fdisk /dev/xvdf
-  446  lsblk
-  447  mkfs.ext3 /dev/xvdf1
-  448  mkdir snapshot
-  449  ls
-  450  mount /dev/xvdf1 snapshot
-  451  ls
-  452  df -h
-  453  echo "Move file to different region" > backup
-  454  ls
-  455  mv backup snapshot/
-  456  cd snapshot/
-  457  ls
-  458  ls
-  459  ls
-  460  rm -rf backup 
-  461  ls
-  462  lsblk
-  463  pwd
-  464  ls
-  465  cd ..
-  466  mount /dev/xvdf1 snapshot/
-  467  ls
-  468  ls -l snapshot/
-  469  mkdir snap2
-  470  mount /dev/xvdf1 snap2/
-  471  ls
-  472  lsblk
-  473  umount /dev/xvdf1
-  474  mount /dev/xvdf1 snap2/
-  475  lsblk
-  476  lsblk
-  477  lsblk
-  478  lsblk
-  479  lsblk
-  480  lsblk
-  481  lsblk
-  482  df -h
-  483  lsblk
-  484  mount /dev/xvdf1 snap2
-  485  ls
-  486  cd snap
-  487  cd snap2
-  488  ls
-  489  cat backup 
-  490  exit
-  491  lsblk
-  492  ls - /dev
-  493  ls - /dev
-  494  ls -l /dev
-  495  ls -l /dev | grep "^b"
-  496  lsblk
-  497  df -h
-  498  fdisk -l
-  499  ipconfig
-  500  ifconfig
-  501  ls
-  502  pwd
-  503  mkdir testing
-  504  cd testing/
-  505  ls
-  506  mkdir sai bapatla beach
-  507  ls
-  508  rm -rf *
-  509  ls
-  510  man mkdir
-  511  mkdir -p sai/bapatla/beach
-  512  ls
-  513  ls sai/
-  514  ls sai/bapatla/
-  515  ls
-  516  mkdir sai/new-dir
-  517  ls sai/
-  518  ls -p sai/2nd_dir
-  519  mkdir -p sai/2nd_dir
-  520  ls -l
-  521  ls
-  522  rm sai
-  523  rm -r sai/
-  524  ls
-  525  rm -rf sai/
-  526  ls
-  527  pwd
-  528  cd ..
-  529  pwd
-  530  ls -l
-  531  ls -a
-  532  ls --all
-  533  ls -a
-  534  ls -la
-  535  ls
-  536  ls -l
-  537  man ls
-  538  ls --help
-  539  ls -d
-  540  pwd
-  541  ls -d
-  542  ls -l
-  543  ls -ld
-  544  mkdir tests
-  545  ls -d
-  546  cd test
-  547  ls
-  548  echo "Hello" > tests/file.txt
-  549  cat tests/file.txt 
-  550  ls -d
-  551  ls --help | grep d
-  552  pwd
-  553  ls
-  554  cd ..
-  555  pwd
-  556  ls -d
-  557  ls
-  558  cd ec2-user/
-  559  ls
-  560  ls -ld
-  561  mkdir new_dir
-  562  ls -ld
-  563  pwd
-  564  cd ..
-  565  ls
-  566  ls -d
-  567  ls -ld
+  322  rm -rf file*
+  323  ls
+  324  cd /
+  325  pwd
+  326  ls
+  327  ls -l
+  328  cd boot/
+  329  ls
+  330  ls -l
+  331  lsblk
+  332  python
+  333  aws
+  334  ls
+  335  vi docker.sh
+  336  vi docker.sh
+  337  chmod 777 docker.sh 
+  338  ./docker.sh 
+  339  docker images
+  340  docke ps -a
+  341  docker ps --all
+  342  docker run nginx
+  343  docker ps
+  344  docker ps -a
+  345  docker start 6fc
+  346  docker ps
+  347  docker exec -it 6fc /bin/bash
+  348  docker
+  349  docker rm -rf 6fc
+  350  docker rm -f 6fc
+  351  docker ps
+  352  docker ps -a
+  353  docker run -d --name nginx -p 8081:80 -v /var/lib/docker:/var/lib/docker
+  354  which docker
+  355  docker run -d --name nginx -p 8081:80 -v /var/run/docker.sock:/var/run/docker.sock -v /bin/docker:/usr/bin/docker nginx
+  356  docker ps
+  357  docker exec -it dc2 /bin/bash
+  358  ls
+  359  docker ps
+  360  docker echo "Hello Nginx Container" > dc2:/usr/share/nginx/html/index.html
+  361  docker exec -it dc2 /bin/bash
+  362  docker echo "Hello Nginx Container" > dc2:/usr/share/nginx/html/index.html
+  363  echo "hello Nginx Container" > index.html
+  364  docker cp 
+  365  docker cp index.html dc2:/usr/share/nginx/html/
+  366  docker echo "Hello" > index.html dc2:/usr/share/nginx/html/
+  367  docker ps
+  368  docker ps
+  369  docker images
+  370  cat > index.html 
+  371  docker cp index.html dc2:/usr/share/nginx/html/
+  372  docker ps
+  373  docker ps -a
+  374  docker pause dc2
+  375  docker start dc2
+  376  docker unpause dc2
+  377  aws iam list-user
+  378  aws iam list-users
+  379  aws configure
+  380  aws iam list-users
+  381  ls -a
+  382  cd .aws
+  383  pws
+  384  pwd
+  385  ls -a
+  386  exit
+  387  ls -la /root/
+  388  cat /root/.aws/credentials 
+  389  cat /root/.aws/credentials 
+  390  aws s3 ls
+  391  aws s3 mb s3://rsdasdsdsdssds
+  392  aws s3 ls
+  393  rm /root/.aws/
+  394  rm -rf /root/.aws/
+  395  aws s3 ls
+  396  aws s3 ls
+  397  aws s3 ls
+  398  aws iam list-users
+  399  aws iam list-users
+  400  ls
+  401  aws iam list-users
+  402  cat /etc/grop
+  403  cat /etc/group
+  404  id madhu
+  405  addgroup madhu
+  406  groupadd madhu
+  407  usermod -aG madhu madhu
+  408  exit
+  409  cd /root/
+  410  ls
+  411  cp noah-master /home/ec2-user/
+  412  cp -R noah-master /home/ec2-user/
+  413  exit
+  414  cd /var/www/html/
+  415  vi index.html 
+  416  vi index.html 
+  417  vi index.html 
+  418  ls
+  419  rm -rf Miller.zip 
+  420  git clone https://github.com/awsdevop183/resume.git
+  421  ls
+  422  cp -r * resume
+  423  cp -r assets resume
+  424  ls
+  425  cp -r assets resume/
+  426  cd resume/
+  427  ls
+  428  rm -rf *
+  429  cd ..
+  430  ls
+  431  cp -r assets resume/
+  432  cp index.html resume/
+  433  cd resume/
+  434  git add .
+  435  git commit -m "initial commit"
+  436  git config --gloal user.email "madhu@gmail.com"
+  437  git config --global user.email "madhu@gmail.com"
+  438  git config --global user.name madhu
+  439  git commit -m "initial commit"
+  440  git push
+  441  git push
+  442  docker exec -it dc2 /bin/bash
+  443  ls
+  444  pwd
+  445  ls
+  446  cd ..
+  447  ls
+  448  rm -rf _License.txt 
+  449  rm -rf _ReadMe.txt 
+  450  ls
+  451  rm -rf resume/
+  452  git clone https://github.com/awsdevop183/resume.git
+  453  ls
+  454  cp -r resume/* .
+  455  rm -rf assets index.html 
+  456  cp -r resume/* .
+  457  cd resume/
+  458  git pull
+  459  cd ..
+  460  cp -r resume/* .
+  461  yes | cp -r resume/* .
+  462  cd
+  463  docker images
+  464  docker run -d --name jenkins -p 80:80
+  465  systemctl stop htttpd
+  466  systemctl stop httpd
+  467  docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home -v 
+  468  which docker
+  469  docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v /bin/docker:/bin/docker jenkins/jenkins
+  470  docker images
+  471  docker ps
+  472  docker logs 0a9
+  473  docker update --restart always 0a9
+  474  docker exec -it -u 0 0a9 /bin/bash
+  475  chmod 666 /var/run/docker.sock 
+  476  docker ps
+  477  docker restart 0a9
+  478  docker restart 0a9
+  479  docker logs -f 0a9
+  480  systemctl disable httpd
+  481  systemctl stop httpd
+  482  docker ps -a
+  483  docker update --restart always resume
+  484  docker start resume
+  485  chmod 666 /var/run/docker.sock 
+  486  docker exec -it 0a9 /bin/bash
+  487  docker exec -it -u 0 0a9 /bin/bash
+  488  docker images
+  489  docker rm -rf $(docker 
+  490  docker images -f dangling=true
+  491  docker rm -rf $(docker images -f dangling=true -aq)
+  492  docker rmi -f $(docker images -f dangling=true -aq)
+  493  ldocker images
+  494  docker images
+  495  docker images
+  496  docker images
+  497  docker images
+  498  docker ps
+  499  vi /etc/ssh/sshd_config 
+  500  systemctl restart sshd
+  501  exit
+  502  vi /etc/ssh/sshd_config 
+  503  exit
+  504  exit
+  505  crontab -e
+  506  crontab -l
+  507  cd /var/log/
+  508  ls
+  509  cd cron
+  510  cat cron
+  511  exit
+  512  docker ps -a
+  513  dokcer images
+  514  docker images
+  515  docker ps -a
+  516  docker stop resume
+  517  docker start resume
+  518  docker update --restart=always resume
+  519  docker
+  520  dcker ps -a
+  521  dokcer ps -a
+  522  docker ps -a
+  523  docker ps
+  524  docker ps -a
+  525  docker start resume
+  526  exit
+  527  docker ps
+  528  docker images
+  529  docker images
+  530  docker ps
+  531  docker exec -it dc2 /bin/bash
+  532  ls
+  533  touch key.pem
+  534  chmod 400 key.pem 
+  535  ls -l
+  536  ls -l key.pem 
+  537  docker exec -it dc2 /bin/bash
+  538  ls
+  539  rm indexj
+  540  rm index*
+  541  rm -a index*
+  542  rm -rf index*
+  543  ls
+  544  ls
+  545  docker images
+  546  docker run -d --name awsdevops183/resume -p 8082:8080
+  547  docker ps -a
+  548  docker run -d --name awsdevops18 -p 8082:80 resume:v1
+  549  docker images
+  550  docker images
+  551  docker login
+  552  docker push awsdevops183/resume
+  553  docker images
+  554  docker rmi awsdevops183/resume
+  555  docker images
+  556  docker run -d awsdevops183/resume
+  557  docker images
+  558  docker ps -a
+  559  docker ps
+  560  docker exec -it 8a0 curl localhost
+  561  docker run ubuntu
+  562  docker ps -a
+  563  docker rm 0c9
+  564  docker ps
+  565  docker rm -f 8a0
+  566  docker images
+  567  docker rmi awsdevops183/resume
   568  ls
-  569  cd ec2-user/
-  570  ls
-  571  ls
-  572  mv tests testing/
-  573  ls
-  574  ls -l testing/
-  575  ls -l testing/
-  576  cd testing/
+  569  docker images
+  570  docker images
+  571  docker rmi ubuntu:latest
+  572  docker images
+  573  docker run -it centos bash
+  574  docker images
+  575  docker run -it centos:7 bash
+  576  docker ps
   577  ls
-  578  touch file{2..10}
-  579  ls -l
-  580  ls
-  581  rm -rf file*
-  582  ls
-  583  cd /
-  584  pwd
-  585  ls
-  586  ls -l
-  587  cd boot/
-  588  ls
-  589  ls -l
-  590  lsblk
-  591  python
-  592  aws
-  593  ls
-  594  vi docker.sh
-  595  vi docker.sh
-  596  chmod 777 docker.sh 
-  597  ./docker.sh 
+  578  ls
+  579  python
+  580  cd /var/log/
+  581  ls
+  582  cd httpd/
+  583  passwd ec2-user
+  584  vi /etc/ssh/sshd_config 
+  585  service sshd restart
+  586  hostname
+  587  exit
+  588  hostnamectl set-hostname resume
+  589  exit
+  590  exit
+  591  ls
+  592  docker ps -a
+  593  docker ps -a
+  594  docker rm fla c23
+  595  docker ps -a
+  596  docker rm f1a73
+  597  docker ps -a
   598  docker images
-  599  docke ps -a
-  600  docker ps --all
-  601  docker run nginx
-  602  docker ps
-  603  docker ps -a
-  604  docker start 6fc
-  605  docker ps
-  606  docker exec -it 6fc /bin/bash
-  607  docker
-  608  docker rm -rf 6fc
-  609  docker rm -f 6fc
-  610  docker ps
-  611  docker ps -a
-  612  docker run -d --name nginx -p 8081:80 -v /var/lib/docker:/var/lib/docker
-  613  which docker
-  614  docker run -d --name nginx -p 8081:80 -v /var/run/docker.sock:/var/run/docker.sock -v /bin/docker:/usr/bin/docker nginx
-  615  docker ps
-  616  docker exec -it dc2 /bin/bash
-  617  ls
-  618  docker ps
-  619  docker echo "Hello Nginx Container" > dc2:/usr/share/nginx/html/index.html
-  620  docker exec -it dc2 /bin/bash
-  621  docker echo "Hello Nginx Container" > dc2:/usr/share/nginx/html/index.html
-  622  echo "hello Nginx Container" > index.html
-  623  docker cp 
-  624  docker cp index.html dc2:/usr/share/nginx/html/
-  625  docker echo "Hello" > index.html dc2:/usr/share/nginx/html/
-  626  docker ps
-  627  docker ps
-  628  docker images
-  629  cat > index.html 
-  630  docker cp index.html dc2:/usr/share/nginx/html/
-  631  docker ps
-  632  docker ps -a
-  633  docker pause dc2
-  634  docker start dc2
-  635  docker unpause dc2
-  636  aws iam list-user
-  637  aws iam list-users
-  638  aws configure
-  639  aws iam list-users
-  640  ls -a
-  641  cd .aws
-  642  pws
-  643  pwd
-  644  ls -a
-  645  exit
-  646  ls -la /root/
-  647  cat /root/.aws/credentials 
-  648  cat /root/.aws/credentials 
-  649  aws s3 ls
-  650  aws s3 mb s3://rsdasdsdsdssds
-  651  aws s3 ls
-  652  rm /root/.aws/
-  653  rm -rf /root/.aws/
-  654  aws s3 ls
-  655  aws s3 ls
-  656  aws s3 ls
-  657  aws iam list-users
-  658  aws iam list-users
-  659  ls
-  660  aws iam list-users
-  661  cat /etc/grop
-  662  cat /etc/group
-  663  id madhu
-  664  addgroup madhu
-  665  groupadd madhu
-  666  usermod -aG madhu madhu
-  667  exit
-  668  cd /root/
-  669  ls
-  670  cp noah-master /home/ec2-user/
-  671  cp -R noah-master /home/ec2-user/
-  672  exit
-  673  cd /var/www/html/
-  674  vi index.html 
-  675  vi index.html 
-  676  vi index.html 
-  677  ls
-  678  rm -rf Miller.zip 
+  599  docker rmi eeb 5d0
+  600  docker images
+  601  docker ps
+  602  docker exec -it 0a9 /bin/bash
+  603  exit
+  604  mysql
+  605  yum install mysql -y
+  606  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p 
+  607  export password=adminadmin
+  608  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p $password
+  609  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p$password
+  610  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p$password > db.sql
+  611  mysqldump --help
+  612  mysqldump -h
+  613  mysqldump --help
+  614  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -P testdb -p$password > db.sql
+  615  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > db.sql
+  616  ls
+  617  cat db.sql 
+  618  ls
+  619  date
+  620  date %H-%M-%S
+  621  date %H
+  622  man date
+  623  date +%H
+  624  date +%H-%M
+  625  date +%H-%M-%S
+  626  date +%D-%H-%M-%S
+  627  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $(date +%D-%H-%M-%S).sql
+  628  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > .$(date +%D-%H-%M-%S).sql
+  629  $(date +%D-%H-%M-%S)
+  630  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$pass
+  631  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > data.sql
+  632  ls
+  633  rm -rf db*
+  634  ls
+  635  export backup=backup
+  636  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.data.sql
+  637  ls
+  638  rm backup.data.sql 
+  639  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.$date +%D-%H-%M-%S.sql
+  640  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.$(date +%D-%H-%M-%S).sql
+  641  export name=$(date +%D-%H-%M-%S)
+  642  echo $name
+  643  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $name.sql
+  644  export name=backup.$(date +%D-%H-%M-%S)
+  645  echo $name
+  646  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $name.sql
+  647  mkdir $name
+  648  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $(date).sql
+  649  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > file.$(date).sql
+  650  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p$password  -p testdb> file.sql
+  651  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > file.sql
+  652  export DATE=$(date +%D-%H-%M-%S)
+  653  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > /tmp/db-$DATE.sql
+  654  vi sqlbackup.sh
+  655  chmod +x sqlbackup.sh 
+  656  vi sqlbackup.sh
+  657  ./script.sh 
+  658  ccat script.sh 
+  659  cat sqlbackup.sh 
+  660  ./sqlbackup.sh 
+  661  vi sqlbackup.sh
+  662  ./sqlbackup.sh 
+  663  ls
+  664  vi sqlbackup.sh
+  665  ./sqlbackup.sh 
+  666  ls
+  667  cat sqlbackup.sh 
+  668  docker exec -it 0a9 /bin/bash
+  669  docker images
+  670  cd /var/jenkins_home/workspace/resume
+  671  docker rm -f resume
+  672  docker build -t resume:v1 .
+  673  docker run -d --name resume -p 80:80 resume:v1
+  674  docker rmi -f $(docker images -f dangling=true -aq)
+  675  dokcker images
+  676  docker images
+  677  docker rmi -f $(docker images -f dangling=true -aq)
+  678  git
   679  git clone https://github.com/awsdevop183/resume.git
-  680  ls
-  681  cp -r * resume
-  682  cp -r assets resume
-  683  ls
-  684  cp -r assets resume/
-  685  cd resume/
-  686  ls
-  687  rm -rf *
-  688  cd ..
-  689  ls
-  690  cp -r assets resume/
-  691  cp index.html resume/
-  692  cd resume/
-  693  git add .
-  694  git commit -m "initial commit"
-  695  git config --gloal user.email "madhu@gmail.com"
-  696  git config --global user.email "madhu@gmail.com"
-  697  git config --global user.name madhu
-  698  git commit -m "initial commit"
-  699  git push
-  700  git push
-  701  docker exec -it dc2 /bin/bash
-  702  ls
-  703  pwd
-  704  ls
-  705  cd ..
-  706  ls
-  707  rm -rf _License.txt 
-  708  rm -rf _ReadMe.txt 
-  709  ls
-  710  rm -rf resume/
-  711  git clone https://github.com/awsdevop183/resume.git
-  712  ls
-  713  cp -r resume/* .
-  714  rm -rf assets index.html 
-  715  cp -r resume/* .
-  716  cd resume/
-  717  git pull
-  718  cd ..
-  719  cp -r resume/* .
-  720  yes | cp -r resume/* .
-  721  cd
-  722  docker images
-  723  docker run -d --name jenkins -p 80:80
-  724  systemctl stop htttpd
-  725  systemctl stop httpd
-  726  docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home -v 
-  727  which docker
-  728  docker run -d --name jenkins -p 8080:8080 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v /bin/docker:/bin/docker jenkins/jenkins
-  729  docker images
-  730  docker ps
-  731  docker logs 0a9
-  732  docker update --restart always 0a9
-  733  docker exec -it -u 0 0a9 /bin/bash
-  734  chmod 666 /var/run/docker.sock 
-  735  docker ps
-  736  docker restart 0a9
-  737  docker restart 0a9
-  738  docker logs -f 0a9
-  739  systemctl disable httpd
-  740  systemctl stop httpd
-  741  docker ps -a
-  742  docker update --restart always resume
-  743  docker start resume
-  744  chmod 666 /var/run/docker.sock 
-  745  docker exec -it 0a9 /bin/bash
-  746  docker exec -it -u 0 0a9 /bin/bash
-  747  docker images
-  748  docker rm -rf $(docker 
-  749  docker images -f dangling=true
-  750  docker rm -rf $(docker images -f dangling=true -aq)
-  751  docker rmi -f $(docker images -f dangling=true -aq)
-  752  ldocker images
-  753  docker images
-  754  docker images
-  755  docker images
-  756  docker images
-  757  docker ps
-  758  vi /etc/ssh/sshd_config 
-  759  systemctl restart sshd
-  760  exit
-  761  vi /etc/ssh/sshd_config 
-  762  exit
-  763  exit
-  764  crontab -e
-  765  crontab -l
-  766  cd /var/log/
-  767  ls
-  768  cd cron
-  769  cat cron
-  770  exit
-  771  docker ps -a
-  772  dokcer images
-  773  docker images
-  774  docker ps -a
-  775  docker stop resume
-  776  docker start resume
-  777  docker update --restart=always resume
-  778  docker
-  779  dcker ps -a
-  780  dokcer ps -a
-  781  docker ps -a
-  782  docker ps
-  783  docker ps -a
-  784  docker start resume
-  785  exit
-  786  docker ps
-  787  docker images
-  788  docker images
-  789  docker ps
-  790  docker exec -it dc2 /bin/bash
-  791  ls
-  792  touch key.pem
-  793  chmod 400 key.pem 
-  794  ls -l
-  795  ls -l key.pem 
-  796  docker exec -it dc2 /bin/bash
-  797  ls
-  798  rm indexj
-  799  rm index*
-  800  rm -a index*
-  801  rm -rf index*
-  802  ls
+  680  cd resume/
+  681  ls
+  682  git status
+  683  git branch -v
+  684  git branch -a
+  685  git status
+  686  cd
+  687  mkdir git_practice
+  688  cd git_practice/
+  689  git clone https://github.com/awsdevop183/private.git
+  690  ls
+  691  cd private/
+  692  echo "hello" > hello
+  693  git add hello 
+  694  git commit -m "Initial commit"
+  695  git push
+  696  git status
+  697  git log
+  698  history
+  699  git show
+  700  git log
+  701  git log
+  702  git show 2e0e
+  703  git show
+  704  git remote -v
+  705  ls -a
+  706  git status
+  707  cd ..
+  708  ls
+  709  git first_repo
+  710  mkdir first_repo
+  711  cd first_repo/
+  712  git init
+  713  git status
+  714  git
+  715  git config --global init.defaultBranch main
+  716  git branch
+  717  git branch -a
+  718  git branch -v
+  719  git log
+  720  git show
+  721  git branch feature
+  722  git branch -a feature
+  723  git branch help
+  724  git help branch
+  725  git branch feature
+  726  git branch
+  727  git branch -v
+  728  git branch feature
+  729  ls
+  730  cd ..
+  731  ls
+  732  rm -rf first_repo/
+  733  mkdir first_repo
+  734  cd first_repo/
+  735  git init
+  736  ls -a
+  737  git branch
+  738  git branch -a
+  739  git branch -v
+  740  echo 'Hello' > new_file
+  741  git add new_file 
+  742  git commit -m "initial commit"
+  743  git branch
+  744  git branch -v
+  745  git branch -a
+  746  git branch feature
+  747  git branch
+  748  git branch -v
+  749  git status
+  750  echo "Story 1" > story1.txt
+  751  lgit status
+  752  git status
+  753  git config --global user.name rishi
+  754  git config --global user.email rishi@mail.com
+  755  ls -a
+  756  cd .git/
+  757  ls
+  758  cd ..
+  759  cd .git/
+  760  git status
+  761  cd ..
+  762  git status
+  763  git add story1.txt 
+  764  git status
+  765  echo "Line 2" > story1.txt 
+  766  git status
+  767  git restore story1.txt
+  768  cat story1.txt 
+  769  cd ..
+  770  ls
+  771  cd private/
+  772  ls
+  773  git pull
+  774  git status
+  775  cd ..
+  776  cd first_repo/
+  777  git log
+  778  git status
+  779  echo "line 2" > story1.txt 
+  780  echo "Story 2" > story2.txt
+  781  git status
+  782  git status
+  783  ls -la $HOME
+  784  git log
+  785  git show
+  786  git log --oneline
+  787  python
+  788  cd /etc/logrotate.d/
+  789  ls
+  790  cat nginx 
+  791  pwd
+  792  cat nginx 
+  793  ls
+  794  cd
+  795  pwd
+  796  cd
+  797  cd git_practice/
+  798  ls
+  799  git clone https://github.com/awsdevop183/awsrestart.git
+  800  ls
+  801  d awsrestart/
+  802  cd awsrestart/
   803  ls
-  804  docker images
-  805  docker run -d --name awsdevops183/resume -p 8082:8080
-  806  docker ps -a
-  807  docker run -d --name awsdevops18 -p 8082:80 resume:v1
-  808  docker images
-  809  docker images
-  810  docker login
-  811  docker push awsdevops183/resume
-  812  docker images
-  813  docker rmi awsdevops183/resume
-  814  docker images
-  815  docker run -d awsdevops183/resume
-  816  docker images
-  817  docker ps -a
-  818  docker ps
-  819  docker exec -it 8a0 curl localhost
-  820  docker run ubuntu
-  821  docker ps -a
-  822  docker rm 0c9
-  823  docker ps
-  824  docker rm -f 8a0
-  825  docker images
-  826  docker rmi awsdevops183/resume
-  827  ls
-  828  docker images
-  829  docker images
-  830  docker rmi ubuntu:latest
-  831  docker images
-  832  docker run -it centos bash
-  833  docker images
-  834  docker run -it centos:7 bash
-  835  docker ps
-  836  ls
+  804  cat > index.html
+  805  ls
+  806  git add index.html 
+  807  git commit -m "initial commmit"
+  808  git push
+  809  cd ..
+  810  echo "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" > git_token
+  811  cat git_token 
+  812  cd awsrestart/
+  813  ls
+  814  ls
+  815  history
+  816  history > commands
+  817  ls
+  818  git status
+  819  git add commands 
+  820  git status
+  821  git commit -m "Added commands file"
+  822  git status
+  823  git push
+  824  cat ../git_token 
+  825  git push
+  826  git pull
+  827  git remote -v
+  828  ls
+  829  cat index.html 
+  830  vi index.html 
+  831  ls
+  832  cat index.html 
+  833  vi index.html 
+  834  git pull
+  835  cat ../git_token 
+  836  git pull
   837  ls
-  838  python
-  839  cd /var/log/
-  840  ls
-  841  cd httpd/
-  842  passwd ec2-user
-  843  vi /etc/ssh/sshd_config 
-  844  service sshd restart
-  845  hostname
-  846  exit
-  847  hostnamectl set-hostname resume
-  848  exit
-  849  exit
-  850  ls
-  851  docker ps -a
-  852  docker ps -a
-  853  docker rm fla c23
-  854  docker ps -a
-  855  docker rm f1a73
-  856  docker ps -a
-  857  docker images
-  858  docker rmi eeb 5d0
-  859  docker images
-  860  docker ps
-  861  docker exec -it 0a9 /bin/bash
-  862  exit
-  863  mysql
-  864  yum install mysql -y
-  865  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p 
-  866  export password=adminadmin
-  867  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p $password
-  868  mysql -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -u admin -p$password
-  869  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p$password > db.sql
-  870  mysqldump --help
-  871  mysqldump -h
-  872  mysqldump --help
-  873  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -P testdb -p$password > db.sql
-  874  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > db.sql
-  875  ls
-  876  cat db.sql 
-  877  ls
-  878  date
-  879  date %H-%M-%S
-  880  date %H
-  881  man date
-  882  date +%H
-  883  date +%H-%M
-  884  date +%H-%M-%S
-  885  date +%D-%H-%M-%S
-  886  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $(date +%D-%H-%M-%S).sql
-  887  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > .$(date +%D-%H-%M-%S).sql
-  888  $(date +%D-%H-%M-%S)
-  889  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$pass
-  890  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > data.sql
-  891  ls
-  892  rm -rf db*
+  838  cat index.html 
+  839  git status
+  840  git commit -am "Modiefied index file"
+  841  git pull
+  842  vi index.html 
+  843  git status
+  844  git commit -am "Merge conflict resolved"
+  845  git push
+  846  ls
+  847  touch file1 file2
+  848  git status
+  849  touch file3
+  850  git status
+  851  touch .gitignore
+  852  git status
+  853  git status
+  854  vi .gitignore 
+  855  git status
+  856  git add .
+  857  git commit -m "file1 and file2"
+  858  git push
+  859  cd ..
+  860  ls
+  861  mkdir new_repo
+  862  cd new_repo/
+  863  git status
+  864  ls -a
+  865  git init
+  866  ls -a
+  867  git status
+  868  ls
+  869  pwd
+  870  git remote add origin git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/awsrepo
+  871  git add remote origin git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/awsrepo
+  872  aws configure
+  873  cd ..
+  874  ls
+  875  git clone git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/awsrepo
+  876  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/awsrepo
+  877  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/awsrepo
+  878  touch helllo
+  879  git add helllo 
+  880  ls
+  881  cd awsrepo/
+  882  touch file
+  883  git add file 
+  884  git commit -m "initial commit"
+  885  git push
+  886  git push
+  887  cd
+  888  cd git_practice/
+  889  ls
+  890  rm -rf awsrepo
+  891  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/myrepo
+  892  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/myrepo
   893  ls
-  894  export backup=backup
-  895  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.data.sql
-  896  ls
-  897  rm backup.data.sql 
-  898  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.$date +%D-%H-%M-%S.sql
-  899  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $backup.$(date +%D-%H-%M-%S).sql
-  900  export name=$(date +%D-%H-%M-%S)
-  901  echo $name
-  902  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $name.sql
-  903  export name=backup.$(date +%D-%H-%M-%S)
-  904  echo $name
-  905  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $name.sql
-  906  mkdir $name
-  907  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > $(date).sql
-  908  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > file.$(date).sql
-  909  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p$password  -p testdb> file.sql
-  910  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > file.sql
-  911  export DATE=$(date +%D-%H-%M-%S)
-  912  mysqldump -u admin -h database-1.cuzovbuaz1gl.us-east-1.rds.amazonaws.com -p testdb -p$password > /tmp/db-$DATE.sql
-  913  vi sqlbackup.sh
-  914  chmod +x sqlbackup.sh 
-  915  vi sqlbackup.sh
-  916  ./script.sh 
-  917  ccat script.sh 
-  918  cat sqlbackup.sh 
-  919  ./sqlbackup.sh 
-  920  vi sqlbackup.sh
-  921  ./sqlbackup.sh 
-  922  ls
-  923  vi sqlbackup.sh
-  924  ./sqlbackup.sh 
+  894  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/myrepo
+  895  cd myrepo/
+  896  touch file
+  897  git add file 
+  898  git commit -m "initial commit"
+  899  git push
+  900  ls
+  901  lls
+  902  ls
+  903  ls -l
+  904  cd new_dir/
+  905  ls
+  906  cd ..
+  907  rm -rf new_dir/
+  908  ls
+  909  cd test
+  910  ls
+  911  cd ..
+  912  ls
+  913  ls testing/
+  914  rm -rf testing/
+  915  ls redd
+  916  rm -rf redd
+  917  ls
+  918  rm -rf ebs_volume/
+  919  exit
+  920  mkdir practice_git
+  921  cd practice_git/
+  922  git clone https://github.com/awsdevop183/testingrepo.git
+  923  ls
+  924  cd testingrepo/
   925  ls
-  926  cat sqlbackup.sh 
-  927  docker exec -it 0a9 /bin/bash
-  928  docker images
-  929  cd /var/jenkins_home/workspace/resume
-  930  docker rm -f resume
-  931  docker build -t resume:v1 .
-  932  docker run -d --name resume -p 80:80 resume:v1
-  933  docker rmi -f $(docker images -f dangling=true -aq)
-  934  dokcker images
-  935  docker images
-  936  docker rmi -f $(docker images -f dangling=true -aq)
-  937  git
+  926  ech "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" > git_token
+  927  echo "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" > git_token
+  928  cat git_token 
+  929  git branch
+  930  git branch -a
+  931  git branch -v
+  932  exit
+  933  python
+  934  git clone 
+  935  git clone https://github.com/awsdevop183/resume.git
+  936  git rm -rf resume/
+  937  rm -rf resume/
   938  git clone https://github.com/awsdevop183/resume.git
-  939  cd resume/
-  940  ls
-  941  git status
-  942  git branch -v
-  943  git branch -a
-  944  git status
-  945  cd
-  946  mkdir git_practice
-  947  cd git_practice/
-  948  git clone https://github.com/awsdevop183/private.git
-  949  ls
-  950  cd private/
-  951  echo "hello" > hello
-  952  git add hello 
-  953  git commit -m "Initial commit"
-  954  git push
-  955  git status
-  956  git log
-  957  history
-  958  git show
-  959  git log
-  960  git log
-  961  git show 2e0e
-  962  git show
-  963  git remote -v
-  964  ls -a
-  965  git status
-  966  cd ..
-  967  ls
-  968  git first_repo
-  969  mkdir first_repo
-  970  cd first_repo/
-  971  git init
-  972  git status
-  973  git
-  974  git config --global init.defaultBranch main
-  975  git branch
-  976  git branch -a
-  977  git branch -v
-  978  git log
-  979  git show
-  980  git branch feature
-  981  git branch -a feature
-  982  git branch help
-  983  git help branch
-  984  git branch feature
-  985  git branch
-  986  git branch -v
-  987  git branch feature
-  988  ls
-  989  cd ..
-  990  ls
-  991  rm -rf first_repo/
-  992  mkdir first_repo
-  993  cd first_repo/
-  994  git init
-  995  ls -a
-  996  git branch
-  997  git branch -a
-  998  git branch -v
-  999  echo 'Hello' > new_file
- 1000  git add new_file 
- 1001  git commit -m "initial commit"
- 1002  git branch
- 1003  git branch -v
- 1004  git branch -a
- 1005  git branch feature
- 1006  git branch
- 1007  git branch -v
- 1008  git status
- 1009  echo "Story 1" > story1.txt
- 1010  lgit status
- 1011  git status
- 1012  git config --global user.name rishi
- 1013  git config --global user.email rishi@mail.com
- 1014  ls -a
- 1015  cd .git/
- 1016  ls
- 1017  cd ..
- 1018  cd .git/
- 1019  git status
+  939  cd re
+  940  cd resume/
+  941  ls
+  942  cp -a * 
+  943  docker ps
+  944  cp -a assets dc2:/usr/share/nginx/html
+  945  docker cp -a assets dc2:/usr/share/nginx/html
+  946  docker cp -a index.html dc2:/usr/share/nginx/html
+  947  docker images
+  948  docker run -d --name awsdevops -p 8082:8080
+  949  docker ps
+  950  docker images
+  951  docker run -d --name awsdevops -p 8082:80 nginx:latest
+  952  docker ps
+  953  docker cp -a index.html 51ca:/usr/share/nginx/html
+  954  docker cp -a assets 51ca:/usr/share/nginx/html
+  955  docker update restart always 51ca
+  956  docker update --restart always 51ca
+  957  docker exec -it 51ca /bin/bash
+  958  df -h
+  959  ls
+  960  cd ..
+  961  ls
+  962  curl http://169.254.169.254/latest
+  963  curl http://169.254.169.254/latest/meta-data
+  964  curl http://169.254.169.254/latest/meta-data/public-ip
+  965  curl http://169.254.169.254/latest/meta-data
+  966  curl http://169.254.169.254/latest/meta-data/public-ipv4
+  967  sed 's/EC2ID/$EC2ID' > fil.txt
+  968  sed 's/EC2ID/$EC2ID/g' > fil.txt
+  969  sed "s/EC2ID/$EC2ID/" > fil.txt
+  970  echo $EC2ID
+  971  curl http://169.254.169.254/latest/meta-data/public-ipv4
+  972  curl http://169.254.169.254/latest/meta-da
+  973  curl http://169.254.169.254/latest/meta-data/
+  974  ls
+  975    
+  976  mkdir hyma
+  977  ls
+  978  ls -l
+  979  cd hyma/
+  980  pwd
+  981  ls
+  982  useradd hyma
+  983  passwd hyma
+  984  exit
+  985  visudo
+  986  exit
+  987  curl http://google.com
+  988  curl google.com
+  989  exit
+  990  curl http://google.com
+  991  curl http://169.254.169.254/latest/meta-data
+  992  curl http://169.254.169.254/latest/meta-data/public-ipv4
+  993  sudo amazon-linux-extras install epel -y
+  994  sudo yum install stress -y
+  995  stress
+  996  cd .ssh
+  997  ls
+  998  cat > authorized_keys 
+  999  exit
+ 1000  stress
+ 1001  mkdir python
+ 1002  cd python/
+ 1003  vim string.py
+ 1004  chmod +x string.py 
+ 1005  ./string.py 
+ 1006  py string.py 
+ 1007  python string.py 
+ 1008  x="hello reddy"
+ 1009  python
+ 1010  useradd sai -s /sbin/nologin
+ 1011  useradd surya -s /sbin/nologin
+ 1012  passwd surya
+ 1013  vi /etc/passwd
+ 1014  useradd -h
+ 1015  cat /etc/passwd
+ 1016  useradd new-user
+ 1017  cat /etc/passwd
+ 1018  ls
+ 1019  history
  1020  cd ..
- 1021  git status
- 1022  git add story1.txt 
- 1023  git status
- 1024  echo "Line 2" > story1.txt 
- 1025  git status
- 1026  git restore story1.txt
- 1027  cat story1.txt 
- 1028  cd ..
- 1029  ls
- 1030  cd private/
- 1031  ls
- 1032  git pull
- 1033  git status
+ 1021  ls
+ 1022  cd practice_git/
+ 1023  ls
+ 1024  cd testingrepo/
+ 1025  ls
+ 1026  history > commands.txt
+ 1027  git add commands.txt 
+ 1028  git commit -m "Commands"
+ 1029  git remote -a
+ 1030  git remote
+ 1031  git remote -a
+ 1032  git branch
+ 1033  git branch -a
  1034  cd ..
- 1035  cd first_repo/
- 1036  git log
- 1037  git status
- 1038  echo "line 2" > story1.txt 
- 1039  echo "Story 2" > story2.txt
- 1040  git status
- 1041  git status
- 1042  ls -la $HOME
- 1043  git log
- 1044  git show
- 1045  git log --oneline
- 1046  python
- 1047  cd /etc/logrotate.d/
- 1048  ls
- 1049  cat nginx 
- 1050  pwd
- 1051  cat nginx 
- 1052  ls
- 1053  cd
- 1054  pwd
- 1055  cd
- 1056  cd git_practice/
- 1057  ls
- 1058  git clone https://github.com/awsdevop183/awsrestart.git
- 1059  ls
- 1060  d awsrestart/
- 1061  cd awsrestart/
- 1062  ls
- 1063  cat > index.html
- 1064  ls
- 1065  git add index.html 
- 1066  git commit -m "initial commmit"
- 1067  git push
- 1068  cd ..
- 1069  echo "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" > git_token
- 1070  cat git_token 
- 1071  cd awsrestart/
- 1072  ls
- 1073  ls
- 1074  history
- 1075  history > commands
+ 1035  ls
+ 1036  git clone https://github.com/awsdevop183/awsrestart.git
+ 1037  cd awsrestart/
+ 1038  ls
+ 1039  history > commands 
